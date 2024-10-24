@@ -1,0 +1,114 @@
+:root {
+    --header-height: 84px;
+}
+
+h1, h2 {
+    color: #1a1a1a;
+    margin: 10px 0;
+}
+
+h1 {
+    padding-top: 60px;
+    font-size: 36px;
+}
+
+h2 {
+    padding-top: 40px;
+    font-size: 28px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-height);
+}
+
+body {
+    padding-top: var(--header-height);
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.head {
+    background: #1a1a1a;
+    position: fixed;
+    width: 100%;
+    height: var(--header-height);
+    display: flex;
+    top: 0;
+    left:0;
+    z-index: 999;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nickname {
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 160px;
+    padding-right: 120px;
+}
+
+.lid {
+    color: #666666;
+    font-size: 18px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.inset {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.mainTxt {
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.navigation {
+    padding: 19px 0 19px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+.navLink {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.floor {
+    background: #333333;
+    display: flex;
+    margin-top: 100px;
+}
+
+.txt-floor {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    box-sizing: border-box;
+    max-width: 540px;
+    text-align: center;
+    margin: auto;
+    line-height: 21px;
+}
+
+a:hover {
+    color: rgb(191, 191, 191);
+}
